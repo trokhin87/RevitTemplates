@@ -29,11 +29,11 @@ panel.AddPushButton<StartupCommand>("Execute")
 
 ### Значит, чтобы сделать три кнопки, нам нужно три класса:
 
-1. * LoadXmlCommand *
+1. LoadXmlCommand
 
-2. * CreateParametersCommand *
+2. CreateParametersCommand
 
-3. * ApplyDataCommand *
+3. ApplyDataCommand
 
 Каждый должен наследовать ExternalCommand.
 
@@ -105,6 +105,8 @@ namespace testTask
 }
 ```
 > 🎓 Пояснение, что тут происходит (простым языком)
+
+
 ▶ panel.AddPushButton<LoadXmlCommand>("Load XML")
 
 — создаёт кнопку
